@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    outline: none;
+
+}
+/* cabeçalho */
+body{
+    background-color: #ffffff; 
+}
+section{
+    padding: 54px 0;
+    width: 100%;
+    margin: 0 auto;
+    background-attachment: fixed;
+}
+h3{
+    font-size: 50px;
+    margin-top: 25px;
+}
+p{
+    color:#0000009c ;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.btn{
+    background-color: #01b93a;
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: #08e44e;
+}
+
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+nav a{
+    color: white;
+    font-size: 40px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-left: 606px;;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+nav ul a{
+    color: rgb(0, 0, 0);
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 19px;
+    display: block;
+}
+nav ul a:not(.btn)::after{
+    content: "" ;
+    background-color: #01b93a;
+    height: 3.6px;
+    width: 0%;
+    display: block;
+    transition: 0.3s;
+    margin: 0 auto;
+
+}
+nav ul A:hover::after{
+    width: 100%;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.bannerprod{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+.bannercontato{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text p{
+    font-size: 34px;
+    color: #ffffff;
+    margin: 18px 0;
+    font-weight: bold;
+}
+.banner .banner-text2{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text2 h3{
+    font-size: 96px;
+    color: #01b93a;
+    margin: 18px 0;
+    font-weight: bold;
+}
+section {
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+   
+}
+.logotipo{
+    margin-left: -299px;
+}
+.btn2:hover{
+    background-color: #08e44e;
+}
+/* fim cabecalho */
+
+/*pagina principal / produtos*/
+.item{
+    display: inline-block;
+    width: 46%;
+    padding: 1.5%;
+    font-size: 20px;
+    line-height: 42px;
+    color: #01b93a;
+}
+.item .title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.titulo{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-size: 30px;
+    font-weight:  bold;
+    color: #474747;
+    margin-top: 15px;
+}
+.subtitulo2{
+    font-size: 26px;
+    font-weight:  bold;
+    color: #474747;
+    margin-top: 15px;
+}
+.sublinhado2{
+    width: 500px;
+    background: #01b93a;
+    height: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.sublinhado{
+    width: 500px;
+    background: #01b93a;
+    height: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.sublinhadoprod{
+    width: 1235px;
+    background: #01b93a;
+    height: 10px;
+    margin: 9px auto;
+    margin-bottom: 30px;
+}
+.produtos{
+    text-align: center;
+    margin: 50px 0;
+}
+section{
+    padding: 0px;
+}
+.valor {
+    margin-top: -14px ;
+}
+.btn2{
+    background-color: #113412;
+    color: rgb(255, 255, 255);
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase
+
+}
+/*fim pagina princial / produtos*/
+
+/*entregas*/
+.entregas {
+    margin-top: 25px;
+    background: #113412;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px;
+    line-height: 40px;
+}
+.entregas p {
+    color: white;
+}
+.botao a {
+    background-color: #15c91a;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    width: 550px;
+    font-size: 20px;
+}
+.botao a:hover{
+    background-color: #00ff51;
+}
+.botao {
+    margin-top: 10px;
+}
+.entregasp {
+    margin-top: 25px;
+    background: #ffffff;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 45px;
+    line-height: 37px;
+}
+.entregasp p {
+    color: #05c90c;
+}
+/*fim entregas*/
+
+/*depoimentos*/
+.depoimentos h3{
+    text-align: center;
+}
+.depoimentos p{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.depoimentos .card-item{
+    background-color: #c5fcba;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+.depoimentos .card-item img{
+    border-radius: 100px;
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+.depoimentos .card-item .nome-user{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+.depoimentos .card-item .depoimentos-user{
+    font-size: 15px;
+    padding: 0 15px;
+    transition: 0.3s;
+
+}
+.depoimentos .card-item .estrelas{
+    margin: 15px 0;
+    border-top: 2px solid #71767a23;
+}
+.depoimentos .card-item .estrelas i{
+    color: #113412;
+    margin-top: 15px;
+    font-size: 20px;
+    transition: 0.3s;
+
+}
+.depoimentos .card-item:hover{
+    background-color: #55f94f;
+    margin-top: -5px ;
+}
+.depoimentos .card-item:hover .nome-user,
+.depoimentos .card-item:hover .depoimentos-user,
+.depoimentos .card-item:hover .estrelas i{
+    color: white;
+}
+/*fimdepoimentos*/
+
+/* footer*/
+footer {
+    background-color: #113412;
+    display: block;
+}
+footer .item {
+    display: inline-block;
+    width: 30%;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    margin-left: 55px;
+}
+footer .contato h3 {
+    margin-bottom: 20px;
+}
+footer .contato p {
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: inherit;
+}
+
+footer .item .contato {
+    line-height: 30px;
+    font-size: 23px;
+}
+footer .contato input, .contato textarea {
+    border-bottom: 2px solid #fff;
+    height: 45px;
+    padding: 3px;
+    margin: 22px;
+    font-size: 22px;
+    max-width: 247px
+}
+footer h3{
+    font-size: 25px;
+    margin-top: 11px;
+    margin-right: 16px;
+}
+footer a {
+    text-decoration: none;
+}
+footer section {
+    width: 1200px;
+    margin-bottom: 0px;
+    margin-top:70px;
+    
+}
+
+.contato button {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 7px 45px;
+    font-size: 17px;
+    display: block;
+    margin-left: 54px;
+    border-radius: 27px
+    
+}
+footer .home {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+}
+footer .home .menus {
+    display: table-caption;
+    text-align: initial;
+}
+
+footer .social li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 40px;
+}
+footer a{
+    color: #fff;
+}
+footer .item h3 {
+    margin-right: 51px
+}
+footer .item p{
+    text-align: initial;
+}
+footer .contato h3{
+    margin-right: 153px;
+}
+/*fim footer*/
+/*paginas sobre*/
+.sobre .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sobre .sobre-text{
+    width: 50%;
+    padding-right: 40px;
+}
+.sobre .sobre-text p{
+    margin: 35px 27px 42px -289px;
+    color: #000000;
+    font-size: 19px;
+    font-weight: bold;
+}
+.sobre .sobre-img{
+    width: 50%;
+}
+.sobre .sobre-img img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 0px 0px -12px 118px;
+}
+.sobre h3{
+    margin: 39px 0px 45px -293px;
+    color: #01b93a;
+}
+.btn3{
+    background-color: #01b93a;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+    font-weight: bold;
+    font-size: 20px;
+    margin: -8px 0px 0px -290px;
+}
+/*fimpaginasobre*/
+
+/* Pagina de contato*/
+.contato2-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contato2-info .left-side{
+    width: 50%;
+    padding: 30px;
+    background-color: #01b93a;
+    border-radius: 14px;
+    margin-right:  50px;
+    height: fit-content;
+}
+
+.contato2-info .left-side div{
+    display: flex;
+    align-items: center;
+    margin-bottom:  10px;
+}
+.contato2-info .left-side div i{
+    font-size: 24px;
+    margin-right:20px;
+    color: white;
+}
+.contato2-info .left-side p{
+    font-size: 17px;
+    color: white;
+}
+
+.contato2 .right-side{
+    width: 50%;
+}
+.contato2-info .right-side input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 47px;
+    padding: 15px;
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 1px solid #f1f1f1;
+    color: #212121;
+    font-weight: lighter;
+}
+
+.contato2-info .right-side input:focus,
+.contato2-info .right-side textarea:focus{
+    border-color: #01b93a;
+}
+.contato2-info .right-side textarea{
+    border: 1px solid #f1f1f1;
+    color: #212121;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+    transition: 0.3s;
+    resize: none;
+}
+.contato2-info .right-side button{
+    border: none;
+}
+.btn4 {
+    background-color: #01b93a;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn5 {
+    background-color: #01b93a;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn5:hover,
+.btn4:hover,
+.btn3:hover{
+    background-color: #08e44e;
+}
+/*fim contato*/
